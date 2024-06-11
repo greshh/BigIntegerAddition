@@ -5,6 +5,20 @@ For a second-year course: Algorithms & Data Structures
 
 This program adds two positive big integers in decimal format. Here *big integer* means integers that can be much larger than the biggest integer datatype in C++.
 
+## Instructions
+Enter the two numbers in two different lines separated by ENTER. For example:
+
+Input:
+```
+535953791669899051588630937807
+40058549908817013181945150931
+```
+
+Output:
+```
+576012341578716064770576088738
+```
+
 ## Procedure
 1) Load individual digits of two input numbers in two stack.
 2) a. Carry out integer addition, adding each digit in the same place-number together and storing the resultant place-number in a new stack.
